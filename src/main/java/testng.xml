@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+	<test name="Test">
+		<parameter name="browser" value="firefox" />
+
+		<groups>
+			<run>
+				<include name="sanity" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.testng.com.Parameter" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
